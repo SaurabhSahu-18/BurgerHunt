@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.nav{
+    height: 15vh;
+    width: 100vw;
+    background-color: #303C47;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #FCFAED;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.nav a:hover{
+    color: #d7d68c;
+}
+
+.nav h1{
+    color: #FCFAED;
+    font-size: 4rem;
+}
+
+.nav-ord{
+    height: 70px;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ord i,a{
+    padding: 0px 15px;
+}
+
+.nav-ord i{
+    font-size: 1.5rem;
+    color: #5880a7;
+}
+
+.nav-ord a{
+    list-style-type: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.nav-ord a:hover{
+    text-decoration: underline;
+}
+
+.order{
+    padding: 0.75rem 1.25rem;
+    background-color:#417d9b;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 550;
+}
+
+.order:hover{
+    background-color: #27607c;
+}
+
+.order1{
+    padding: 0.75rem 1.25rem;
+    background-color: #ecad2f;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 550;
+    
+}
+
+.order1:hover{
+    background-color: #c99838;
+}
+
+.hero{
+    height: 436px;
+    width: 100vw;
+    background-color: #303C47;
+    position: relative;
+}
+
+.hero-img{
+    height: 430px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+
+.hero-text{
+    padding: 4rem;
+    position: relative;
+    top: 1.5rem;
+    left: 2.75rem;
+}
+
+.hero h1{
+    color: #ecad2f;
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.hero span{
+    color: #FCFAED;
+    font-size: 3rem;
+    font-weight: bold;
+    display: block;
+}
+
+.hero .order{
+  margin-top: 1.5rem;
+}
+
+.hero2{
+    height: 85vh;
+    width: 100vw;
+    background-color:#ecad2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    height: 85%;
+    width: 92%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.img{
+    height: 480px;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.order3{
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1.25rem;
+    font-weight: 550;
+}
+
+.order3:hover{
+    background-color: rgb(61, 44, 25);
+    color: white;
+}
+
+.cnt h2{
+    font-size: 3rem;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.cnt p{
+    font-size: 2rem;
+    position: relative;
+    bottom: 35px;
+    margin: 3px;
+}
+
+.cnt{
+    position:absolute;
+    right: 17%;
+    top: 30%;
+}
+
+.cnt button{
+    margin-left: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.menu-sec{
+    height: 120vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-sec h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu-item img{
+    height: 277px;
+    width: 370px;
+    display: block;
+    margin: 50px 50px;
+    margin-left: 80px;
+}
+
+.menu-item button{
+    /* margin-left: 100px;
+    margin-top: 15px; */
+    position: relative;
+    left: 150px;
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    height: 100vh;
+    width: 100vw;
+    background-color:#85d2ff;
+    position: relative;
+    top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-item{
+    height: 560px;
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-item img{
+    height: 224px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-item h2{
+    font-size: 2.5rem;
+}
+
+.card-item p{
+    font-size: 1.5rem;
+}
+
+.card-item-cnt{
+    position: relative;
+    top: 40px;
+    left: 24px;
+}
+
+.card-item-cnt h2{
+    margin-left: 30px;
+}
+
+.card-item-cnt p{
+    margin: 30px auto;
+}
+
+.card-item-cnt button{
+    margin: 5px 50px;
+}
+
+.cntnav{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg.jpeg);
+    background-size: cover;
+}
+
+.cntfrm{
+    height: 550px;
+    width: 470px;
+    border-radius: 10px;
+    background-color:#FCFAED;
+    margin: auto;
+    position: relative;
+    top: 1.4em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.frmdv{
+    margin: 20px 0px 10px 30px;
+}
+
+.frmdv > input{
+    font-size: 1.2em; 
+}
+.frmdv > label{
+    font-size: 2em; 
+}
